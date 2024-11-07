@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e6f0ff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .form-container {
+            background-color: #f5f5ff;
+            padding: 20px;
+            width: 300px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border: 2px solid #d3b8ae;
+        }
+        .form-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+            background-color: #e6e6fa;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        .form-group input {
+            border: none;
+            outline: none;
+            background: none;
+            width: 100%;
+            padding: 5px;
+            margin-left: 10px;
+            font-size: 16px;
+            color: #333;
+        }
+        .form-group i {
+            color: #555;
+            font-size: 18px;
+        }
+        .register-btn {
+            width: 100%;
+            padding: 10px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #6a5acd;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .register-btn:hover {
+            background-color: #483d8b;
+        }
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <form>
+        <div class="form-group">
+            <i class="fa fa-user"></i>
+            <input type="text" placeholder="Name" required>
+        </div>
+        <div class="form-group">
+            <i class="fa fa-envelope"></i>
+            <input type="email" placeholder="Email ID" required>
+        </div>
+        <div class="form-group">
+            <i class="fa fa-phone"></i>
+            <input type="tel" placeholder="Phone" required>
+        </div>
+        <div class="form-group">
+            <i class="fa fa-lock"></i>
+            <input type="password" placeholder="Set Password" required>
+        </div>
+        <button type="submit" class="register-btn">REGISTER</button>
+    </form>
+</div>
+
+<!-- Font Awesome for icons -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
